@@ -130,8 +130,6 @@ export const AdminDashboard = ({ user, onLogout }) => {
               <h3 className="text-2xl font-bold text-gray-900">{stats.topPerformer}</h3>
             </Card>
           </div>
-
-          {/* Data Table Section */}
           <div className="space-y-4">
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
               <h2 className="text-lg font-bold text-gray-800">Student Results</h2>
